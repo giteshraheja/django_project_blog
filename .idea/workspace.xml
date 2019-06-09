@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/django_project/urls.py" description="path('register/', user_views.register, name='regis..." line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="" />
+    <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="136">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -178,7 +180,7 @@
       <workItem from="1560069661314" duration="355000" />
       <workItem from="1560070023219" duration="2442000" />
       <workItem from="1560074500652" duration="719000" />
-      <workItem from="1560075745969" duration="3050000" />
+      <workItem from="1560075745969" duration="3774000" />
     </task>
     <task id="LOCAL-00001" summary="Updated resources">
       <created>1560080617023</created>
@@ -198,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15861000" />
+    <option name="totallyTimeSpent" value="16585000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="685" y="0" width="688" height="735" extended-state="0" />
@@ -325,8 +327,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="136">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
