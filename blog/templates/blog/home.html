@@ -10,7 +10,7 @@
                 </div>
                 <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
                 <p class="article-content">{{ post.content|slice:"0:400" }}</p><br>
-                <h2><a class="btn btn-primary" href="{% url 'post-detail' post.id %}">Read More</a></h2>
+                <h2 style="float: right"><a class="btn btn-primary" href="{% url 'post-detail' post.id %}">Read More</a></h2>
             </div>
         </article>
     {% endfor %}
