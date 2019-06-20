@@ -1,11 +1,10 @@
 {% extends "blog/base.html" %}
 {% block content %}
-
     <div class="s-content">
         <div class="masonry-wrap">
             <div class="masonry">
+                <div class="grid-sizer"></div>
                 {% for post in posts %}
-                    <div class="grid-sizer"></div>
                     <article class="masonry__brick entry format-standard animate-this">
                         <div class="entry__text">
                             <div class="entry__header">
@@ -26,12 +25,14 @@
                             </div>
                             <div class="entry__excerpt">
                                 <p class="article-content">{{ post.content|slice:"0:350" }}</p><br>
-                                <button class="btn btn--pill match-width float-right"><a class="article-title" href="{% url 'post-detail' post.id %}">Read More</a></button>
+                                <button class="btn btn--pill match-width float-right"><a class="article-title"
+                                                                                         href="{% url 'post-detail' post.id %}">Read
+                                    More</a></button>
                             </div>
                         </div>
                     </article> <!-- end article -->
                 {% endfor %}
-
+            <article class="masonry__brick entry format-standard animate-this">
                 {% if is_paginated %}
 
                     {% if page_obj.has_previous %}
@@ -54,6 +55,7 @@
                     {% endif %}
 
                 {% endif %}
+            </article>
             </div>
         </div>
     </div>
