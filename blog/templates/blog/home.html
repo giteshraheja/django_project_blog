@@ -25,7 +25,8 @@
                                 </div>
                             </div>
                             <div class="entry__excerpt">
-                                <p class="article-content">{{ post.content|slice:"0:350" }}</p>
+                                <p class="article-content">{{ post.content|slice:"0:350" }}</p><br>
+                                <button class="btn btn--pill match-width float-right"><a class="article-title" href="{% url 'post-detail' post.id %}">Read More</a></button>
                             </div>
                         </div>
                     </article> <!-- end article -->
