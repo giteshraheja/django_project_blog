@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="150" column="60" lean-forward="true" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
+            <state relative-caret-position="1339">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -276,7 +276,7 @@
       <workItem from="1560971872349" duration="6893000" />
       <workItem from="1561021384327" duration="11268000" />
       <workItem from="1561038688650" duration="106000" />
-      <workItem from="1564214293582" duration="14306000" />
+      <workItem from="1564214293582" duration="15015000" />
     </task>
     <task id="LOCAL-00001" summary="Updated resources">
       <created>1560080617023</created>
@@ -348,11 +348,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564233930972</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Change name">
+      <created>1564234186057</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1564234186057</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changed path">
+      <created>1564234370429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564234370429</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59177000" />
+    <option name="totallyTimeSpent" value="59886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -418,7 +432,9 @@
     <MESSAGE value="Debug False" />
     <MESSAGE value="Debug True" />
     <MESSAGE value="Added compress enabled False and debug False" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added compress enabled False and debug False" />
+    <MESSAGE value="Change name" />
+    <MESSAGE value="Changed path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed path" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_django_project.zip/django_project/django_project/celery.py" />
@@ -702,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="150" column="60" lean-forward="true" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
+        <state relative-caret-position="1339">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
