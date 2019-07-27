@@ -26,7 +26,7 @@ with open(BASE_DIR + '/django_project/config.json', 'r') as config:
 SECRET_KEY = obj["API_KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['djangoproject10.herokuapp.com']
 
@@ -103,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    },
+   },
     {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
@@ -147,3 +147,5 @@ EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 django_heroku.settings(locals())
+
+COMPRESS_ENABLED = os.environ.get('COMPRESS_ENABLED', False)
