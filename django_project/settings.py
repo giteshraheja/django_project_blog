@@ -26,7 +26,7 @@ with open(BASE_DIR + '/django_project/config.json', 'r') as config:
 SECRET_KEY = obj["API_KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['djangoproject10.herokuapp.com']
 
