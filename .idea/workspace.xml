@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            <state relative-caret-position="197">
+              <caret line="150" column="60" lean-forward="true" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -70,12 +70,12 @@
     <findStrings>
       <find>href</find>
       <find>end</find>
-      <find>static</find>
       <find>font-size</find>
       <find>detail</find>
       <find>post_de</find>
       <find>h2</find>
       <find>btn</find>
+      <find>static</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -276,7 +276,7 @@
       <workItem from="1560971872349" duration="6893000" />
       <workItem from="1561021384327" duration="11268000" />
       <workItem from="1561038688650" duration="106000" />
-      <workItem from="1564214293582" duration="13729000" />
+      <workItem from="1564214293582" duration="14306000" />
     </task>
     <task id="LOCAL-00001" summary="Updated resources">
       <created>1560080617023</created>
@@ -327,17 +327,37 @@
       <option name="project" value="LOCAL" />
       <updated>1564233298262</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Debug False">
+      <created>1564233541740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1564233541740</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Debug True">
+      <created>1564233637666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1564233637666</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added compress enabled False and debug False">
+      <created>1564233930972</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1564233930972</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58600000" />
+    <option name="totallyTimeSpent" value="59177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +371,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.400982" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.400982" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -395,7 +415,10 @@
     <MESSAGE value="Changed article class" />
     <MESSAGE value="added pics and pagination.." />
     <MESSAGE value="Changed total post per views." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed total post per views." />
+    <MESSAGE value="Debug False" />
+    <MESSAGE value="Debug True" />
+    <MESSAGE value="Added compress enabled False and debug False" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added compress enabled False and debug False" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_django_project.zip/django_project/django_project/celery.py" />
@@ -679,8 +702,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="197">
+          <caret line="150" column="60" lean-forward="true" selection-start-line="150" selection-start-column="60" selection-end-line="150" selection-end-column="60" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>

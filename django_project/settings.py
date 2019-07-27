@@ -28,7 +28,7 @@ SECRET_KEY = obj["API_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['djangoproject10.herokuapp.com']
+ALLOWED_HOSTS = ['midiary.herokuapp.com']
 
 # Application definition
 
