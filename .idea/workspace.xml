@@ -4,7 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/django_project/urls.py" description="path('register/', user_views.register, name='regis..." line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="">
+    <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="Whitenoise correct part-8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +48,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="122">
+              <caret line="183" selection-start-line="183" selection-end-line="183" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -278,35 +288,7 @@
       <workItem from="1564304096638" duration="6024000" />
       <workItem from="1564333485988" duration="578000" />
       <workItem from="1564334077584" duration="593000" />
-      <workItem from="1564509171688" duration="1188000" />
-    </task>
-    <task id="LOCAL-00003" summary="Django 2.2.2 updated">
-      <created>1560337741142</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1560337741142</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added features">
-      <created>1560344909861</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1560344909861</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Changed article class">
-      <created>1564222642298</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564222642298</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added pics and pagination..">
-      <created>1564226157162</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564226157162</updated>
+      <workItem from="1564509171688" duration="1683000" />
     </task>
     <task id="LOCAL-00007" summary="Changed total post per views.">
       <created>1564233298262</created>
@@ -623,17 +605,45 @@
       <option name="project" value="LOCAL" />
       <updated>1564510091421</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Whitenoise correct part-6">
+      <created>1564510380918</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1564510380918</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Whitenoise correct part-7">
+      <created>1564510442851</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1564510442851</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Whitenoise correct part-8">
+      <created>1564510710119</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1564510710119</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Whitenoise correct part-8">
+      <created>1564510733825</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1564510733825</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75827000" />
+    <option name="totallyTimeSpent" value="76322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -647,7 +657,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35188216" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35188216" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -686,9 +696,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="logging" />
-    <MESSAGE value="debug == True" />
-    <MESSAGE value="Fixed." />
     <MESSAGE value="Nopes" />
     <MESSAGE value="Added staticwhite noise for development" />
     <MESSAGE value="Added staticwhite noise for development static too" />
@@ -711,7 +718,10 @@
     <MESSAGE value="Whitenoise correct part-3" />
     <MESSAGE value="Whitenoise correct part-4" />
     <MESSAGE value="Whitenoise correct part-5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Whitenoise correct part-5" />
+    <MESSAGE value="Whitenoise correct part-6" />
+    <MESSAGE value="Whitenoise correct part-7" />
+    <MESSAGE value="Whitenoise correct part-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whitenoise correct part-8" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/users/templates/users/logout.html">
@@ -1003,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django_project/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1027,10 +1030,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="26" column="15" lean-forward="true" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/django_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="122">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
