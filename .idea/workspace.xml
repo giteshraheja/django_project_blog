@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="197" selection-start-line="197" selection-end-line="197" />
+            <state relative-caret-position="109">
+              <caret line="86" selection-start-line="86" selection-end-line="86" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -278,14 +278,7 @@
       <workItem from="1564304096638" duration="6024000" />
       <workItem from="1564333485988" duration="578000" />
       <workItem from="1564334077584" duration="593000" />
-      <workItem from="1564509171688" duration="869000" />
-    </task>
-    <task id="LOCAL-00002" summary="Heroku initial">
-      <created>1560082506719</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1560082506719</updated>
+      <workItem from="1564509171688" duration="1188000" />
     </task>
     <task id="LOCAL-00003" summary="Django 2.2.2 updated">
       <created>1560337741142</created>
@@ -623,14 +616,22 @@
       <option name="project" value="LOCAL" />
       <updated>1564509731314</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Whitenoise correct part-5">
+      <created>1564510091421</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1564510091421</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75508000" />
+    <option name="totallyTimeSpent" value="75827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -685,7 +686,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Manifest" />
     <MESSAGE value="logging" />
     <MESSAGE value="debug == True" />
     <MESSAGE value="Fixed." />
@@ -710,7 +710,8 @@
     <MESSAGE value="Whitenoise correct part-2" />
     <MESSAGE value="Whitenoise correct part-3" />
     <MESSAGE value="Whitenoise correct part-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Whitenoise correct part-4" />
+    <MESSAGE value="Whitenoise correct part-5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whitenoise correct part-5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/users/templates/users/logout.html">
@@ -1028,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/django_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        <state relative-caret-position="109">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
