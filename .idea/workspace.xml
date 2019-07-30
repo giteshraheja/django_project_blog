@@ -4,7 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/django_project/urls.py" description="path('register/', user_views.register, name='regis..." line="28" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="" />
+    <list default="true" id="2b09ba0b-6645-45a3-9eae-8ace4bcef94d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/django_project/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="190" column="23" lean-forward="true" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="23" />
+            <state relative-caret-position="287">
+              <caret line="197" selection-start-line="197" selection-end-line="197" />
               <folding>
                 <element signature="e#313#322#0" expanded="true" />
               </folding>
@@ -276,14 +278,7 @@
       <workItem from="1564304096638" duration="6024000" />
       <workItem from="1564333485988" duration="578000" />
       <workItem from="1564334077584" duration="593000" />
-      <workItem from="1564509171688" duration="267000" />
-    </task>
-    <task id="LOCAL-00001" summary="Updated resources">
-      <created>1560080617023</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1560080617023</updated>
+      <workItem from="1564509171688" duration="869000" />
     </task>
     <task id="LOCAL-00002" summary="Heroku initial">
       <created>1560082506719</created>
@@ -607,11 +602,32 @@
       <option name="project" value="LOCAL" />
       <updated>1564509393605</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Whitenoise correct part-2">
+      <created>1564509531968</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1564509531968</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Whitenoise correct part-3">
+      <created>1564509650048</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1564509650048</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Whitenoise correct part-4">
+      <created>1564509731313</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1564509731314</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74906000" />
+    <option name="totallyTimeSpent" value="75508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -669,9 +685,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Try it" />
-    <MESSAGE value="Try it 2" />
-    <MESSAGE value="debug False" />
     <MESSAGE value="Manifest" />
     <MESSAGE value="logging" />
     <MESSAGE value="debug == True" />
@@ -694,10 +707,12 @@
     <MESSAGE value="Added pagination line" />
     <MESSAGE value="Removed useless navbar" />
     <MESSAGE value="Whitenoise correct part-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Whitenoise correct part-1" />
+    <MESSAGE value="Whitenoise correct part-2" />
+    <MESSAGE value="Whitenoise correct part-3" />
+    <MESSAGE value="Whitenoise correct part-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whitenoise correct part-4" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://G:/ZUseless/Typerite_1_0_0/Typerite_1_0_0/page-contact.html" />
     <entry file="file://$PROJECT_DIR$/users/templates/users/logout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1004,10 +1019,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-649">
+          <caret line="547" column="25" selection-start-line="547" selection-start-column="25" selection-end-line="547" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/django_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="190" column="23" lean-forward="true" selection-start-line="190" selection-start-column="23" selection-end-line="190" selection-end-column="23" />
+        <state relative-caret-position="287">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
