@@ -12,8 +12,10 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 import json
-import django_heroku
+import socket  # for verifying local and remote Hostname
 import dj_database_url
+import dotenv
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,13 +25,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 with open(BASE_DIR + '/django_project/config.json', 'r') as config:
     obj = json.load(config)
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = obj["API_KEY"]
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoproject10.herokuapp.com']
+ALLOWED_HOSTS = ['djangoproject10.herokuapp.com','localhost']
 
 # Application definition
 
@@ -78,22 +81,36 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+dotenv_file = os.path.join(BASE_DIR, ".env")
+if os.path.isfile(dotenv_file) and socket.gethostname() == 'GITESH-10':
+    dotenv.load_dotenv(dotenv_file)
+    DATABASES = {}
+    DATABASES['default'] = dj_database_url.config(conn_max_age=600)
+elif socket.gethostname() == 'Django':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'djangostack',
+            'HOST': '/opt/bitnami/postgresql',
+            'PORT': '5432',
+            'USER': 'bitnami',
+            'PASSWORD': '94c1c025aa'
+        }
     }
-}
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'django',
-#         'USER': 'django',
-#         'PASSWORD': '3f47bb9cf9143eabd206dcae015fb14b',
-#         'HOST': '68.183.84.187',
-#         'PORT': '5432',
-#     }
-# }
+
+    EXAMPLE_DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
