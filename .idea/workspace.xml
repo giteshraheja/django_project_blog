@@ -66,8 +66,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            <state relative-caret-position="120">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,16 +205,6 @@
               <item name="django_project_blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="django_project_blog" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="django_project_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django_project_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="django_project_blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="django_project_blog" type="462c0819:PsiDirectoryNode" />
-              <item name="django_project" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -341,7 +334,7 @@
       <workItem from="1564333485988" duration="578000" />
       <workItem from="1564334077584" duration="238000" />
       <workItem from="1564823184291" duration="701000" />
-      <workItem from="1564825613463" duration="4732000" />
+      <workItem from="1564825613463" duration="7492000" />
     </task>
     <task id="LOCAL-00001" summary="Updated resources">
       <created>1560080617023</created>
@@ -651,11 +644,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564828103336</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="max length deleted try">
+      <created>1564835524660</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1564835524660</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79771000" />
+    <option name="totallyTimeSpent" value="82531000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -674,7 +674,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35188216" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35188216" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="bottom" id="File Transfer" order="13" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -683,7 +683,7 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
       <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="5" side_tool="true" weight="0.32980332" />
-      <window_info active="true" anchor="right" id="Remote Host" order="6" visible="true" weight="0.24659607" />
+      <window_info anchor="right" id="Remote Host" order="6" visible="true" weight="0.24659607" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
@@ -753,7 +753,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="empty" />
     <MESSAGE value="experiment" />
     <MESSAGE value="experiment 2" />
     <MESSAGE value="Try it" />
@@ -778,7 +777,8 @@
     <MESSAGE value="no more." />
     <MESSAGE value="tried new settings medium" />
     <MESSAGE value="max length deleted" />
-    <option name="LAST_COMMIT_MESSAGE" value="max length deleted" />
+    <MESSAGE value="max length deleted try" />
+    <option name="LAST_COMMIT_MESSAGE" value="max length deleted try" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/media/profile_pics/large.jpg">
@@ -1096,8 +1096,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="33" lean-forward="true" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
