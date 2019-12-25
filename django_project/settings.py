@@ -182,3 +182,5 @@ LOGGING = {
         }
     }
 }
+
+USE_FROALA_EDITOR = True
