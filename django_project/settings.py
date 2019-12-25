@@ -181,4 +181,3 @@ LOGGING = {
         }
     }
 }
-del DATABASES['default']['OPTIONS']['sslmode']
