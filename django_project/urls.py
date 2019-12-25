@@ -47,6 +47,7 @@ urlpatterns = [
          ),
          name='password_reset_complete'),
     path('', include('blog.urls')),
+    # path('froala_editor/', include('froala_editor.urls')), # for froala image upload only
 ]
 
 
